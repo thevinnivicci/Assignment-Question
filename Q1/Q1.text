@@ -1,0 +1,7 @@
+Cookies, local storage, and session storage are all ways to store data on the user's browser. However, they have different features and use cases.
+
+Cookies are small text files that are stored on the user's computer by the web browser. They are typically used to store small amounts of data, such as user preferences or login information. Cookies are sent with every request that the user makes to the server, so they can be used to track the user's activity across different pages on a website.
+
+Local storage is a larger storage space that is also stored on the user's computer. It can be used to store more data than cookies, and it is not sent with every request that the user makes to the server. This makes it a good choice for storing data that needs to be persisted between page visits, such as shopping cart items or game scores.
+
+Session storage is a temporary storage space that is only available to the current browsing session. It is deleted when the browser is closed or the tab is refreshed. This makes it a good choice for storing data that only needs to be available for the current session, such as the items that the user has added to their shopping cart.

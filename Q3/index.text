@@ -1,0 +1,6 @@
+What is Sharding in MongoDB, and how does it work?
+
+
+Sharding is a way to distribute data across multiple servers in a MongoDB cluster. This allows you to scale your database horizontally, which means that you can add more servers to handle more data without having to upgrade your existing servers.
+
+Sharding works by dividing the data in a collection into chunks. Each chunk is then assigned to a shard, which is a replica set of servers. When you perform a query on a sharded collection, the MongoDB query router will route the query to the shards that contain the relevant chunks. This ensures that your queries are processed efficiently, even if your database is very large.
